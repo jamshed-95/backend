@@ -1,0 +1,200 @@
+{
+	"info": {
+		"_postman_id": "bedd5777-8496-42b6-9fb5-98f0aaf671e3",
+		"name": "Landing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18888743"
+	},
+	"item": [
+		{
+			"name": "addblog",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"unique_id\": \"1680082068382x8187186665797714001\",\r\n  \"Alt\": \"The Future of Low-Code and AI Integration: Predictions and Trends to Watch Out For\",\r\n  \"content\": \"1680082068382x172750897214914560 , 1680082185262x253481633572978700 , 1680082228710x753990917304090600 , 1680082332147x981942850318762000 , 1680082398260x812249211067957200 , 1680082466621x873533153546076200\",\r\n  \"Description\": \"The Future of Low-Code and AI Integration: Predictions and Trends to Watch Out For\",\r\n  \"Feedback\": \"1668674681934x813989147447918600\",\r\n  \"IMG\": \"//s3.amazonaws.com/appforest_uf/f1680023866948x516748447271451840/%C2%A6%D0%AF%C2%A6-T%D0%91T%D0%92new7.webp\",\r\n  \"Priority\": \"9\",\r\n  \"Publish\": \"yes\",\r\n  \"Title\": \"The Future of Low-Code and AI Integration: Predictions and Trends to Watch Out For\",\r\n  \"Creation_Date\": \"Mar 29, 2023 12:27 pm\",\r\n  \"Modified_Date\": \"Mar 29, 2023 3:51 pm\",\r\n  \"Slug\": \"no-code-in-2022-changes-features-opportunities\",\r\n  \"Creator\": \"slozovsk@gmail.com\",\r\n  \"time_create\": \"01.04.2023 11:32:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/addBlog",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"addBlog"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addBlogContent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"unique_id\": \"1680082466621x873533153546076200\",\r\n  \"Feedback\": \"1667511451671x670124996026695700\", \r\n  \"Feedback_yes_no\": \"yes\",\r\n  \"IMG\": \"//s3.amazonaws.com/appforest_uf/f1680023306558x985730393958021500/7.webp\",\r\n  \"Sub_title\": \"Result\",\r\n  \"Text\": \"In today's fast-paced world, businesses need quick and efficient solutions to their development needs. That's where low-code platforms come into play, offering rapid prototyping and deployment of applications. Here are some examples of how no-code platforms and their integration with AI have helped launch innovative products on the market: вЂў [u]Voiceflow[/u] is a no-code platform that allows users to design and develop voice applications for Amazon Alexa and Google Home devices. The platform uses AI to create natural language understanding (NLU) models, which can help to improve the accuracy of voice recognition and enhance the user experience. вЂў [u]Bubble[/u] is a no-code platform that allows users to create web applications without coding. The platform uses AI to analyze user behaviour and suggest improvements to the user interface and user experience. This can help to optimize the performance of web applications and improve the user experience. вЂў [u]BuildFire[/u] is a no-code platform that allows users to create mobile applications without coding. The platform uses AI to suggest design elements and content that can improve the user experience. This can help to create more engaging and effective mobile applications. It's the perfect blend of speed and intelligence that can make all the difference for a business's success. To sum up, the integration of low-code and AI is going to shake up the software development industry like never before! By automating repetitive tasks, making development accessible to everyone, personalizing experiences, enhancing security, and speeding up time-to-market, developers can create applications that are [i]faster, more efficient, and downright amazing[/i]. We have no doubt that the future of low-code and AI integration is extremely bright, and this is a trend that developers and businesses simply cannot afford to ignore. Trust us, you want to be on board with this game-changing development!\",\r\n  \"Creation_Date\": \"Mar 29, 2023 12:34 pm\",\r\n  \"Modified_Date\": \"Mar 29, 2023 12:27 pm\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/addBlogContent",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"addBlogContent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addFeedBack",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"unique_id\": \"1667511451671x670124996026695700\",  \r\n  \"Avatar\": \"//s3.amazonaws.com/appforest_uf/f1667574373192x975355656757292500/Ellipse%20114.svg\",\r\n  \"Name\": \"Anar Seidov\",\r\n  \"post_in_company\": \"Founder of Expresica\",\r\n  \"Text\": \"We have been working with Swiftle for more than a year. I asked them after a bad experience with another company. Igor (CEO Swiftle) and his team helped me to correct the mistakes of the previous contractor. I liked his approach and precise attention to the quality of the work and building relationships with a client. After a while, I thought of creating a platform Expresica based on my offline business and asked Igor again. I explained to him my idea and together with the team we started to build the platform. After a short time, the first version was launched. I am not aware of programming and IT, therefore, some of my ideas were irrelevant. But the Swiftle team proved to me that no-code was flexible and suitable for rapid changes. That’s why even the most unbelievable tasks we managed to realize\",\r\n  \"Creation_Datet\": \"03.11.2022 23:37:00\",\r\n  \"Modified_Date\": \"03.11.2022 23:37:00\",\r\n  \"Slug\": \"test2\",\r\n  \"Creator\": \"g.alexandr20@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/addFeedBack",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"addFeedBack"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getBlogs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/get/blogs",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"get",
+						"blogs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/get/blogContent/1675776900687x416342884136255500",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"get",
+						"blogContent",
+						"1675776900687x416342884136255500"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sentSubscribe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/mail/subscribe/isoboev.jamshed@gmail.com",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"mail",
+						"subscribe",
+						"isoboev.jamshed@gmail.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendFollow",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/mail/follow/isoboev.jamshed@gmail.com",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"mail",
+						"follow",
+						"isoboev.jamshed@gmail.com"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "localhost/backlanding/public",
+			"type": "string"
+		}
+	]
+}
